@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="_f3f3f3">#f3f3f3</color>
+    <color name="view_progressbar_bg">#c98885</color> 
+    <color name="_aaaaaa">#aaaaaa</color>
+    <color name="menu_item_selector_pressed">#E7EFE2</color>
+    <color name="menu_item_selector_normal">#ffffff</color>
+    <!-- 通用按钮点击 -->
+    <color name="expand_btn_selector_normal">#c98885</color>
+    <color name="expand_btn_selector_pressed">#c98885</color>
+    <!-- menu 文字颜色 -->
+    <color name="expand_menu_txt_color">#333333</color>
+    <!-- tab 颜色值 -->
+    <color name="expend_tab_bottom_bg">#c98885</color>
+    <color name="expend_tab_front_bg">@color/white</color>
+
+</resources>

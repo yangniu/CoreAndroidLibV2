@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 数据持久化 -->
+    <string name="key_sharedpreference_name">auto_setting_xml</string>
+    <string name="key_sharedpreference_totalmoney">yuebao_totalmoney</string>
+    <string name="key_sharedpreference_ljsy">yuebao_ljsy</string>
+    <string name="key_sharedpreference_profits">yuebao_profits</string>
+    
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_base_main_fragmentlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/common_layout_bg" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/com_basemain_navbar_layout"
+            layout="@layout/com_top_navbar" />
+
+        <LinearLayout
+            android:id="@+id/com_basemain_main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1" />
+    </LinearLayout>
+
+</FrameLayout>
