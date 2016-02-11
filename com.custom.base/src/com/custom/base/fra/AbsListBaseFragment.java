@@ -17,7 +17,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import com.custom.base.R;
 
-public abstract class AbsListBaseFragment<T> extends AbsBaseFragment implements
+public abstract class AbsListBaseFragment extends AbsBaseFragment implements
 		OnItemClickListener, PullToRefreshBase.OnRefreshListener<ListView>, PullToRefreshBase.OnLastItemVisibleListener {
 	protected PullToRefreshListView mlistview;
 	private AbsListAdapter<?, ?> listItemAdapter;

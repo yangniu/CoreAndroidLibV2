@@ -26,6 +26,7 @@ import com.custom.base.analysis.MobStatisticUtils;
 import com.custom.view.dialog.AbsBaseDialog;
 import com.custom.view.dialog.BaseDialog;
 import com.custom.view.dialog.ProgressDialog;
+import com.slidingmenu.lib.SlidingMenu;
 import com.slidingmenu.lib.app.SlidingFragmentActivity;
 
 /***
@@ -36,15 +37,15 @@ import com.slidingmenu.lib.app.SlidingFragmentActivity;
  */
 public abstract class AbsBaseActivity extends SlidingFragmentActivity {
 
-	protected TextView topTitleView;
-	protected TextView leftReferTv;
-	protected TextView rightReferTv;
-	protected ImageButton leftButton;
-	protected ImageButton rightButton;
-	protected TextView rightTxtBtn;
-	protected LinearLayout mainlayout;
-	protected ViewGroup framelayout;
-	protected ViewGroup navBarLayout;
+	public TextView topTitleView;
+	public TextView leftReferTv;
+	public TextView rightReferTv;
+	public ImageButton leftButton;
+	public ImageButton rightButton;
+	public TextView rightTxtBtn;
+	public LinearLayout mainlayout;
+	public ViewGroup framelayout;
+	public ViewGroup navBarLayout;
 	private boolean isLeftRightGesture = false;
 	private GestureDetector leftRightDetector = null;
 	private LockScreen mLockScreen = new LockScreen(this);
@@ -62,10 +63,10 @@ public abstract class AbsBaseActivity extends SlidingFragmentActivity {
 	}
 	
 	
-	protected void setSlidingEnabled(boolean isEnable){
-		
+	public void setSlidingEnabled(boolean isEnable){
 		getSlidingMenu().setSlidingEnabled(isEnable);
-		
+		getSlidingMenu().setBehindOffsetRes(R.dimen.slid_menu_width);
+		getSlidingMenu().setTouchModeAbove(SlidingMenu.TOUCHMODE_MARGIN);
 	}
 	
 	@Override

@@ -11,6 +11,9 @@
     <color name="common_layout_bg">#DDDDDD</color>
     <!-- 标题栏 -->
     <color name="common_navigate_bg">#212128</color>
+    
+    <color name="com_nav_txt">@color/white</color>
+    
     <color name="common_alipay_bg">#262A3B</color>
 
     <!-- 通用按钮点击 -->
