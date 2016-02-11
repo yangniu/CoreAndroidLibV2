@@ -54,8 +54,18 @@ public abstract class AbsBaseActivity extends SlidingFragmentActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setBaseContentView();
+		setBehindContentView(R.layout.com_slidmenu_layout);
 		this.leftRightDetector = new GestureDetector(getApplicationContext(),
 				new MyLeftRightGestureListener(new MyCallBack()));
+		
+		setSlidingEnabled(false);
+	}
+	
+	
+	protected void setSlidingEnabled(boolean isEnable){
+		
+		getSlidingMenu().setSlidingEnabled(isEnable);
+		
 	}
 	
 	@Override
@@ -189,6 +199,12 @@ public abstract class AbsBaseActivity extends SlidingFragmentActivity {
 		}
 	}
 
+	protected Fragment getFragment(String className) {
+		Bundle args = getIntent().getExtras();
+		Fragment fragment = Fragment.instantiate(this, className, args);
+		return fragment;
+	}
+	
 	/**
 	 * 制定位置替换fragment
 	 * 
