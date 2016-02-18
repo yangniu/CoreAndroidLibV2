@@ -47,7 +47,9 @@ public class VolleyRequestManager {
 		if(mRequestQueue ==null){
 			throw new NFRuntimeException("please initialize VolleyRequestManager in Application.... ");
 		}
-		request.setTag(tag);
+		if(tag!=null){			
+			request.setTag(tag);
+		}
 		mRequestQueue.addRequest(request);
 	}
 

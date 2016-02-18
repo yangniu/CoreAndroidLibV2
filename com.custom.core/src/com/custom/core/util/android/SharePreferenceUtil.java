@@ -152,6 +152,22 @@ public class SharePreferenceUtil {
 		}
 		return this;
 	}
+	
+	public Object get(String key, Object value) {
+		if (value instanceof Boolean) {
+			return getBoolean(key, (Boolean)value);
+		} else if (value instanceof Integer || value instanceof Byte) {
+			return getInt(key, (Integer) value);
+		} else if (value instanceof Long) {
+			return getLong(key, (Long) value);
+		} else if (value instanceof Float) {
+			return getFloat(key, (Float)value);
+		} else if (value instanceof String) {
+			return getString(key, (String)value);
+		} else {
+			return getString(key, (String)value);
+		}
+	}
 
 	/**
 	 * 移除键值对。

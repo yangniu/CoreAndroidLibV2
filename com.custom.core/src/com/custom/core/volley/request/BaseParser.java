@@ -33,7 +33,7 @@ public class BaseParser {
 	/**
 	 * Success:服务器返回数据正常.
 	 */
-	public final static int SUCCESS = 1000;
+	public final static int SUCCESS = 200;
 
 	private int code = ERROR;
 	private String msg;

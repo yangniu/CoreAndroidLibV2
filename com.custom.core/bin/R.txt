@@ -1,0 +1,4 @@
+int string key_sharedpreference_ljsy 0x7f020002
+int string key_sharedpreference_name 0x7f020000
+int string key_sharedpreference_profits 0x7f020003
+int string key_sharedpreference_totalmoney 0x7f020001
