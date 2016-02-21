@@ -202,7 +202,10 @@ public abstract class AbsBaseActivity extends SlidingFragmentActivity {
 
 	protected Fragment getFragment(String className) {
 		Bundle args = getIntent().getExtras();
-		Fragment fragment = Fragment.instantiate(this, className, args);
+		Fragment fragment = Fragment.instantiate(this, className, null);
+		if(args!=null){
+			fragment.setArguments(args);
+		}
 		return fragment;
 	}
 	

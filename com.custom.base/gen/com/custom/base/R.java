@@ -692,8 +692,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static int _333333=0x7f0600bf;
         public static int _666666=0x7f0600bd;
+        public static int _7d7d7d=0x7f0600c0;
         public static int _999999=0x7f0600be;
-        public static int _EEEEEE=0x7f0600c0;
+        public static int _EEEEEE=0x7f0600c1;
         public static int _aaaaaa=0x7f060018;
         public static int _f3f3f3=0x7f060016;
         /**  蜜色 
@@ -749,39 +750,39 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  茶色 
          */
         public static int chocolate=0x7f060061;
-        public static int com_nav_txt=0x7f0600c3;
-        public static int com_tab_font_selector=0x7f0600d6;
-        public static int common_alipay_bg=0x7f0600c4;
+        public static int com_nav_txt=0x7f0600c4;
+        public static int com_tab_font_selector=0x7f0600d7;
+        public static int common_alipay_bg=0x7f0600c5;
         /**  通用按钮点击 
          */
-        public static int common_btn_selector_normal=0x7f0600c5;
-        public static int common_btn_selector_pressed=0x7f0600c6;
+        public static int common_btn_selector_normal=0x7f0600c6;
+        public static int common_btn_selector_pressed=0x7f0600c7;
         /**  edit inner btn 
          */
-        public static int common_edit_inner_btn_selector_normal=0x7f0600cb;
-        public static int common_edit_inner_btn_selector_pressed=0x7f0600cc;
+        public static int common_edit_inner_btn_selector_normal=0x7f0600cc;
+        public static int common_edit_inner_btn_selector_pressed=0x7f0600cd;
         /**  layout 背景 
          */
-        public static int common_layout_bg=0x7f0600c1;
+        public static int common_layout_bg=0x7f0600c2;
         /**  menu 文字颜色 
          */
-        public static int common_menu_txt_color=0x7f0600cd;
+        public static int common_menu_txt_color=0x7f0600ce;
         /**  标题栏 
          */
-        public static int common_navigate_bg=0x7f0600c2;
+        public static int common_navigate_bg=0x7f0600c3;
         /**  标题 导航按钮点击 
          */
-        public static int common_navigate_btn_selector_normal=0x7f0600c7;
-        public static int common_navigate_btn_selector_pressed=0x7f0600c8;
+        public static int common_navigate_btn_selector_normal=0x7f0600c8;
+        public static int common_navigate_btn_selector_pressed=0x7f0600c9;
         /**  tab按钮点击 
          */
-        public static int common_tab_btn_selector_selected=0x7f0600c9;
-        public static int common_tab_btn_selector_unselect=0x7f0600ca;
+        public static int common_tab_btn_selector_selected=0x7f0600ca;
+        public static int common_tab_btn_selector_unselect=0x7f0600cb;
         /**  web browser main bg 
          */
-        public static int common_web_browser_main_bg=0x7f0600ce;
-        public static int common_web_toolbar_item_selector_normal=0x7f0600d0;
-        public static int common_web_toolbar_item_selector_pressed=0x7f0600cf;
+        public static int common_web_browser_main_bg=0x7f0600cf;
+        public static int common_web_toolbar_item_selector_normal=0x7f0600d1;
+        public static int common_web_toolbar_item_selector_pressed=0x7f0600d0;
         /**  暗桔黄色 
          */
         public static int coral=0x7f060038;
@@ -866,7 +867,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  暗灰色 
          */
         public static int dimgrey=0x7f06008f;
-        public static int divider_line=0x7f0600d5;
+        public static int divider_line=0x7f0600d6;
         /**  亮海蓝色 
          */
         public static int dodgerblue=0x7f0600a1;
@@ -1006,9 +1007,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /**  亮金黄色 
          */
         public static int linen=0x7f060042;
-        public static int list_item_child_selector_normal=0x7f0600d4;
-        public static int list_item_selector_normal=0x7f0600d3;
-        public static int list_item_selector_pressed=0x7f0600d2;
+        public static int list_item_child_selector_normal=0x7f0600d5;
+        public static int list_item_selector_normal=0x7f0600d4;
+        public static int list_item_selector_pressed=0x7f0600d3;
         /**  紫红色 
          */
         public static int magenta=0x7f06003e;
@@ -1145,7 +1146,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static int seagreen=0x7f06009e;
         /**  搜索 
          */
-        public static int search_part_layout_bg=0x7f0600d1;
+        public static int search_part_layout_bg=0x7f0600d2;
         /**  米绸色 
          */
         public static int seashell=0x7f060029;

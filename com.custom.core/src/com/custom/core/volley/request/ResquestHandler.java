@@ -10,6 +10,8 @@ public interface ResquestHandler<T>{
 	
 	public void onFailurePostExecute(String failureMsg);
 	
+	public void onFailNetExecute();
+	
 	public void onCompleteExcute();
 	
 	
