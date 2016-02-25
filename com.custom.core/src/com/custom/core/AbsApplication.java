@@ -17,8 +17,6 @@ public abstract class AbsApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 		
-		VolleyRequestManager.initialize(this);
-		
 		LogUtil.init(getApplicationContext());
 	}
 	

@@ -22,7 +22,6 @@ public class VolleyRequestManager {
 	private static VolleyRequestManager requestManager=new VolleyRequestManager();
 	
 	public static void initialize(Context context) {
-		
 		if (mRequestQueue == null) {
 			mRequestQueue = Volley.newRequestQueue(context);
 		}
@@ -70,9 +69,11 @@ public class VolleyRequestManager {
 				return true;
 			}
 		});
-		// 关闭线程
+//		// 关闭线程
 		mRequestQueue.stop();
+		mRequestQueue = null;
 	}
+	
 
 	/**
 	 * 

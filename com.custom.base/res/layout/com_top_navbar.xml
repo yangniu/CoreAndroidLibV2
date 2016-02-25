@@ -102,5 +102,11 @@
         android:layout_marginLeft="48dp"
         android:layout_marginRight="48dp"
         android:textColor="@color/com_nav_txt" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="#c7c7c7"/>
 
 </RelativeLayout>
