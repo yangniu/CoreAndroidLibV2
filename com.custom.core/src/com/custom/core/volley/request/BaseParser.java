@@ -81,6 +81,9 @@ public class BaseParser {
 	protected void parseStatus(JSONObject obj) {
 		msg = obj.optString("msg");
 		code = obj.optInt("code");
+		if(code == 10015){
+			code = 200;
+		}
 		total = obj.optString("total");
 	}
 

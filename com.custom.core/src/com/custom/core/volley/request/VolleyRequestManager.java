@@ -69,9 +69,6 @@ public class VolleyRequestManager {
 				return true;
 			}
 		});
-//		// 关闭线程
-		mRequestQueue.stop();
-		mRequestQueue = null;
 	}
 	
 

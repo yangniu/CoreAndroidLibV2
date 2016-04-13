@@ -41,7 +41,7 @@
     <color name="common_web_toolbar_item_selector_normal">#eeeeee</color>
     <!-- 搜索 -->
     <color name="search_part_layout_bg">#FAFAFA</color>
-    <color name="list_item_selector_pressed">#D6ebc9</color>
+    <color name="list_item_selector_pressed">#eeeeee</color>
     <color name="list_item_selector_normal">#fdfefc</color>
     <color name="list_item_child_selector_normal">#f2f7ee</color>
     
